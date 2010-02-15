@@ -1,0 +1,12 @@
+# English strings go here for Rails i18n
+en:
+  notice_remaining_login_attempts: "{{value}} login attempt(s) left."
+  notice_too_many_login_attempts: "Too many login attempts. Your account has been locked and an administrator has been informed."
+  mail_subject_account_locked: "Your {{value}} account has been locked"
+  mail_body_account_locked: "You or someone else attempted too often to log in to your {{value}} account. Your account has been locked to protect you and your project. To reactivate your account, click on the following link: "
+  mail_body_admin_info_locked_account: "Due to too many failed login attempts, the account {{value}} has been locked."
+  mail_subject_admin_info_locked_account: "Account {{value}} locked." 
+  label_allowed_login_attempts: Allowed login attempts
+  label_too_many_logins_email: Notify admin if locked 
+  text_login_attempts: 'Put 0 to allow unlimited login attempts.'
+  text_account_locked_notification_address: "Set an administrator's email address to be notified if an account was locked because of too many login attempts.\nLeave this empty to notify noone." 

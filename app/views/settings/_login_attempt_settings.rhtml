@@ -1,0 +1,7 @@
+<p><label><%= l(:label_allowed_login_attempts)%></label>
+	<%= text_field_tag 'settings[allowed_login_attempts]', @settings['allowed_login_attempts'], :size => 6 %><br/>
+	<em><%= l(:text_login_attempts) %></em></p>
+	
+<p><label><%= l(:label_too_many_logins_email)%></label>
+<%= text_field_tag 'settings[too_many_logins_email]', @settings['too_many_logins_email'], :size => 60 %><br/>
+	<em><%= l(:text_account_locked_notification_address) %></em></p> 
